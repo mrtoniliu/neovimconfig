@@ -42,7 +42,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Python syntax highlight
     Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 
-
+    "whitespace
+    Plug 'bronson/vim-trailing-whitespace'
 
 
 
