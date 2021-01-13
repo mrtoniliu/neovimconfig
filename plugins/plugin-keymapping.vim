@@ -30,3 +30,8 @@ map <leader>b :Buffers<CR>
 nnoremap <leader>g :Rg<CR>
 nnoremap <leader>t :Tags<CR>
 nnoremap <leader>m :Marks<CR>
+
+" Airline
+nmap gt <Plug>AirlineSelectNextTab
+nmap gT <Plug>AirlineSelectPrevTab
+
