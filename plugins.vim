@@ -30,7 +30,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
 
     " commenter
-    Plug 'scrooloose/nerdcommenter'
+    Plug 'tpope/vim-commentary'
 
     " gitgutter
     "Plug 'mhinz/vim-signify'
@@ -42,10 +42,21 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Python syntax highlight
     Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 
+    " Fugitive
+    Plug 'tpope/vim-fugitive'
+
     "whitespace
     Plug 'bronson/vim-trailing-whitespace'
+
+    " starting page
+    Plug 'mhinz/vim-startify'
+
+
+    " File Icons
+    Plug 'ryanoasis/vim-devicons'
 
 
 
     " End
     call plug#end()
+
